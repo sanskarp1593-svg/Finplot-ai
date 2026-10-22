@@ -1,0 +1,17 @@
+{
+  "name": "finpilot-ai",
+  "private": true,
+  "description": "Run from the project root: `npm run dev` starts the backend (port 8000) and frontend (port 5173) together.",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c blue,green \"npm run backend\" \"npm run frontend\"",
+    "backend": "backend\\.venv\\Scripts\\python.exe -m uvicorn app.main:app --port 8000 --app-dir backend",
+    "frontend": "npm --prefix frontend run dev",
+    "share": "concurrently -k -n api,web -c blue,green \"npm run backend\" \"npm --prefix frontend run dev -- --host\"",
+    "seed": "backend\\.venv\\Scripts\\python.exe -c \"import sys; sys.path.insert(0, 'backend'); from app.db.seed import seed; seed()\"",
+    "ingest": "backend\\.venv\\Scripts\\python.exe -c \"import sys; sys.path.insert(0, 'backend'); from app.rag.ingest import ingest; ingest()\"",
+    "test": "backend\\.venv\\Scripts\\python.exe -m pytest -q backend\\tests"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

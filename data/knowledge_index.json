@@ -1,0 +1,188 @@
+[
+  {
+    "doc_title": "Digital Payment Compliance for Small Businesses",
+    "section_title": "Digital Payment Compliance for Small Businesses",
+    "content": "Digital Payment Compliance for Small Businesses\n\n# Digital Payment Compliance for Small Businesses",
+    "source_file": "digital_payments.md"
+  },
+  {
+    "doc_title": "Digital Payment Compliance for Small Businesses",
+    "section_title": "Mandatory Digital Payment Acceptance",
+    "content": "Mandatory Digital Payment Acceptance\n\nAs per Section 269SU of the Income Tax Act (effective 1 Feb 2020), businesses with annual turnover exceeding ₹50 crore must provide digital payment facilities (UPI, debit card, BHIM-UPI, etc.) with no surcharge or MDR.",
+    "source_file": "digital_payments.md"
+  },
+  {
+    "doc_title": "Digital Payment Compliance for Small Businesses",
+    "section_title": "Relevance to Small Businesses",
+    "content": "Relevance to Small Businesses\n\nWhile the ₹50 crore threshold exempts most small businesses, accepting digital payments is highly recommended:\n- No MDR (Merchant Discount Rate) on UPI payments for small merchants\n- Government incentive schemes for digital adoption\n- Builds transparent transaction records for GST and income-tax compliance",
+    "source_file": "digital_payments.md"
+  },
+  {
+    "doc_title": "Digital Payment Compliance for Small Businesses",
+    "section_title": "Cash Transaction Limits",
+    "content": "Cash Transaction Limits\n\n- **Section 269ST**: No person can receive ₹2,00,000 or more in cash in a single transaction, or from a single person in a day, or in respect of a single event/occasion. Penalty = 100% of the amount received.\n- **Section 40A(3)**: Business expenses paid in cash exceeding ₹10,000 in a single day to a single person are disallowed as a deduction. (Limit is ₹35,000 for transporters.)\n- **Section 269SS/269T**: Loans and deposits of ₹20,000 or more must be by cheque/bank transfer, not cash.",
+    "source_file": "digital_payments.md"
+  },
+  {
+    "doc_title": "Digital Payment Compliance for Small Businesses",
+    "section_title": "Record-Keeping for Digital Payments",
+    "content": "Record-Keeping for Digital Payments\n\n- Maintain a separate record of UPI/card/wallet payments received\n- Keep settlement statements from payment gateways\n- Reconcile digital payment receipts with bank statements monthly\n- Retain records for at least 8 years from the end of the relevant assessment year",
+    "source_file": "digital_payments.md"
+  },
+  {
+    "doc_title": "Digital Payment Compliance for Small Businesses",
+    "section_title": "GST and Digital Payments",
+    "content": "GST and Digital Payments\n\n- Digital payments must be accounted for in GST returns the same as cash payments\n- E-invoicing is mandatory for businesses above ₹5 crore turnover (threshold may change)",
+    "source_file": "digital_payments.md"
+  },
+  {
+    "doc_title": "GST Basics for Small Businesses",
+    "section_title": "GST Basics for Small Businesses",
+    "content": "GST Basics for Small Businesses\n\n# GST Basics for Small Businesses",
+    "source_file": "gst_basics.md"
+  },
+  {
+    "doc_title": "GST Basics for Small Businesses",
+    "section_title": "What is GST?",
+    "content": "What is GST?\n\nGoods and Services Tax (GST) is an indirect tax levied on the supply of goods and services in India. It replaced multiple earlier taxes like VAT, service tax, and excise duty.",
+    "source_file": "gst_basics.md"
+  },
+  {
+    "doc_title": "GST Basics for Small Businesses",
+    "section_title": "GST Registration Threshold",
+    "content": "GST Registration Threshold\n\n- **Goods**: Businesses with annual turnover above ₹40 lakh (₹20 lakh for special category states) must register for GST.\n- **Services**: The threshold is ₹20 lakh (₹10 lakh for special category states).\n- Voluntary registration is allowed below these limits.",
+    "source_file": "gst_basics.md"
+  },
+  {
+    "doc_title": "GST Basics for Small Businesses",
+    "section_title": "GST Rates",
+    "content": "GST Rates\n\nCommon GST rate slabs: 0%, 5%, 12%, 18%, and 28%.\n- Essential goods (unbranded rice, wheat, milk): 0%\n- Packaged food items: 5% or 12%\n- Most services: 18%\n- Luxury and sin goods (tobacco, aerated drinks): 28% + cess",
+    "source_file": "gst_basics.md"
+  },
+  {
+    "doc_title": "GST Basics for Small Businesses",
+    "section_title": "Composition Scheme",
+    "content": "Composition Scheme\n\nSmall businesses with turnover up to ₹1.5 crore can opt for the Composition Scheme:\n- Pay tax at a fixed rate (1% for manufacturers, 5% for restaurants, 6% for other services)\n- File quarterly returns instead of monthly\n- Cannot collect tax from customers or claim input tax credit\n- Cannot do inter-state supply",
+    "source_file": "gst_basics.md"
+  },
+  {
+    "doc_title": "GST Basics for Small Businesses",
+    "section_title": "Filing Frequency",
+    "content": "Filing Frequency\n\n- Regular taxpayers: Monthly GSTR-1 (outward supplies) and GSTR-3B (summary return)\n- Composition taxpayers: Quarterly CMP-08 and annual GSTR-4\n- QRMP scheme: Quarterly filing with monthly payment for turnover up to ₹5 crore",
+    "source_file": "gst_basics.md"
+  },
+  {
+    "doc_title": "Mandatory Invoice Fields Under GST",
+    "section_title": "Mandatory Invoice Fields Under GST",
+    "content": "Mandatory Invoice Fields Under GST\n\n# Mandatory Invoice Fields Under GST",
+    "source_file": "invoice_requirements.md"
+  },
+  {
+    "doc_title": "Mandatory Invoice Fields Under GST",
+    "section_title": "Tax Invoice Requirements",
+    "content": "Tax Invoice Requirements\n\nEvery registered business must issue a tax invoice for supply of goods or services. A valid GST tax invoice must contain:\n\n1. **Supplier details**: Name, address, and GSTIN of the supplier\n2. **Invoice number**: A unique, sequential number for the financial year (max 16 characters, can include /, -)\n3. **Date of issue**\n4. **Recipient details**: Name, address, and GSTIN/UIN (if registered); name and address with state + state code (if unregistered, value > ₹50,000)\n5. **HSN/SAC code**: Harmonized System of Nomenclature code for goods, or Service Accounting Code for services\n6. **Description of goods/services**\n7. **Quantity and unit** (for goods)\n8. **Total value before tax**\n9. **Taxable value** (after discounts)\n10. **Tax rate and amount**: CGST, SGST/UTGST (intra-state) or IGST (inter-state), and cess if applicable\n11. **Total invoice value** (in figures and words)\n12. **Place of supply** (with state name and code)\n13. **Reverse charge**: Whether tax is payable on reverse charge basis\n14. **Signature or digital signature** of the supplier or authorised representative",
+    "source_file": "invoice_requirements.md"
+  },
+  {
+    "doc_title": "Mandatory Invoice Fields Under GST",
+    "section_title": "Bill of Supply",
+    "content": "Bill of Supply\n\nComposition dealers and those supplying exempt goods issue a Bill of Supply instead of a Tax Invoice. It does not include tax breakup.",
+    "source_file": "invoice_requirements.md"
+  },
+  {
+    "doc_title": "Mandatory Invoice Fields Under GST",
+    "section_title": "Revised Invoice",
+    "content": "Revised Invoice\n\nIf the original invoice had errors, a revised or supplementary invoice (credit/debit note) must be issued within September of the next financial year or before filing of the annual return, whichever is earlier.",
+    "source_file": "invoice_requirements.md"
+  },
+  {
+    "doc_title": "Mandatory Invoice Fields Under GST",
+    "section_title": "Penalties for Non-Compliance",
+    "content": "Penalties for Non-Compliance\n\n- Failure to issue an invoice: penalty of ₹10,000 or the tax amount, whichever is higher\n- Issuing incorrect invoice: similar penalty and potential prosecution for large amounts",
+    "source_file": "invoice_requirements.md"
+  },
+  {
+    "doc_title": "Record-Keeping Requirements for Small Businesses",
+    "section_title": "Record-Keeping Requirements for Small Businesses",
+    "content": "Record-Keeping Requirements for Small Businesses\n\n# Record-Keeping Requirements for Small Businesses",
+    "source_file": "record_keeping.md"
+  },
+  {
+    "doc_title": "Record-Keeping Requirements for Small Businesses",
+    "section_title": "Why Keep Records?",
+    "content": "Why Keep Records?\n\nProper record-keeping is legally required and practically essential:\n- Income Tax Act requires maintenance of books of accounts\n- GST Act requires records of all supplies, purchases, and tax collected/paid\n- Records serve as evidence during audits and assessments",
+    "source_file": "record_keeping.md"
+  },
+  {
+    "doc_title": "Record-Keeping Requirements for Small Businesses",
+    "section_title": "Who Must Keep Books?",
+    "content": "Who Must Keep Books?\n\nUnder Section 44AA of the Income Tax Act:\n- **Business**: If income exceeds ₹2,50,000 or turnover exceeds ₹25,00,000 in any of the three preceding years\n- **Profession**: Always mandatory for specified professions (doctors, lawyers, architects, engineers, accountants, etc.)\n- In practice, every business should maintain books regardless of threshold",
+    "source_file": "record_keeping.md"
+  },
+  {
+    "doc_title": "Record-Keeping Requirements for Small Businesses",
+    "section_title": "Minimum Records to Maintain",
+    "content": "Minimum Records to Maintain\n\n1. **Cash book**: All cash receipts and payments, daily\n2. **Journal/ledger**: Double-entry bookkeeping of all transactions\n3. **Purchase register**: All purchases with invoices\n4. **Sales register**: All sales with invoices\n5. **Stock register**: Opening stock, purchases, sales, closing stock (for goods businesses)\n6. **Bank statements**: All bank transactions, reconciled monthly\n7. **GST records**: Outward and inward supply details, input tax credit register\n8. **Salary register**: Salary, TDS, PF/ESI details for employees",
+    "source_file": "record_keeping.md"
+  },
+  {
+    "doc_title": "Record-Keeping Requirements for Small Businesses",
+    "section_title": "Retention Period",
+    "content": "Retention Period\n\n- **Income Tax**: Books must be preserved for **6 years** from the end of the relevant assessment year (8 years if a case is pending)\n- **GST**: Records must be retained for **72 months** (6 years) from the due date of filing the annual return for that year\n- **Practical recommendation**: Keep records for at least 8 years to cover all eventualities",
+    "source_file": "record_keeping.md"
+  },
+  {
+    "doc_title": "Record-Keeping Requirements for Small Businesses",
+    "section_title": "Digital Record-Keeping",
+    "content": "Digital Record-Keeping\n\n- Electronic records are valid and admissible if they can be produced in printed form\n- Use accounting software to maintain records digitally\n- Regular backups are essential – the law doesn't excuse data loss\n- Cloud storage is acceptable but ensure data residency compliance",
+    "source_file": "record_keeping.md"
+  },
+  {
+    "doc_title": "Record-Keeping Requirements for Small Businesses",
+    "section_title": "Tax Audit",
+    "content": "Tax Audit\n\n- Businesses with turnover > ₹1 crore (₹10 crore if cash transactions are ≤ 5% of turnover) must get accounts audited under Section 44AB\n- Audit report must be filed by 30 September of the assessment year",
+    "source_file": "record_keeping.md"
+  },
+  {
+    "doc_title": "TDS Deduction Rules for Small Businesses",
+    "section_title": "TDS Deduction Rules for Small Businesses",
+    "content": "TDS Deduction Rules for Small Businesses\n\n# TDS Deduction Rules for Small Businesses",
+    "source_file": "tds_deduction.md"
+  },
+  {
+    "doc_title": "TDS Deduction Rules for Small Businesses",
+    "section_title": "What is TDS?",
+    "content": "What is TDS?\n\nTax Deducted at Source (TDS) is an advance tax collected by the payer at the time of making certain payments. The deducted amount is deposited with the government on behalf of the payee.",
+    "source_file": "tds_deduction.md"
+  },
+  {
+    "doc_title": "TDS Deduction Rules for Small Businesses",
+    "section_title": "When Must a Small Business Deduct TDS?",
+    "content": "When Must a Small Business Deduct TDS?\n\nA business (not an individual/HUF without audit obligation) must deduct TDS on:\n- **Salary payments** (Section 192): As per income-tax slab of the employee\n- **Contractor/sub-contractor payments** (Section 194C): 1% (individual/HUF) or 2% (others) if single payment > ₹30,000 or total in a year > ₹1,00,000\n- **Professional/technical fees** (Section 194J): 2% for technical services, 10% for professional services, if payment > ₹30,000/year\n- **Rent** (Section 194I): 2% for plant/machinery, 10% for land/building, if rent > ₹2,40,000/year\n- **Commission/brokerage** (Section 194H): 5% if payment > ₹15,000/year",
+    "source_file": "tds_deduction.md"
+  },
+  {
+    "doc_title": "TDS Deduction Rules for Small Businesses",
+    "section_title": "TDS on Payments to Residents (Section 194Q)",
+    "content": "TDS on Payments to Residents (Section 194Q)\n\nBusinesses with turnover > ₹10 crore must deduct 0.1% TDS on purchase of goods exceeding ₹50 lakh from a single seller in a year.",
+    "source_file": "tds_deduction.md"
+  },
+  {
+    "doc_title": "TDS Deduction Rules for Small Businesses",
+    "section_title": "TDS Return Filing",
+    "content": "TDS Return Filing\n\n- Quarterly returns in Form 26Q (non-salary) and 24Q (salary)\n- Due dates: 31 Jul, 31 Oct, 31 Jan, 31 May for Q1–Q4",
+    "source_file": "tds_deduction.md"
+  },
+  {
+    "doc_title": "TDS Deduction Rules for Small Businesses",
+    "section_title": "Penalties",
+    "content": "Penalties\n\n- Late deduction: interest at 1% per month\n- Late deposit: interest at 1.5% per month\n- Late filing of return: ₹200 per day (max = TDS amount)",
+    "source_file": "tds_deduction.md"
+  },
+  {
+    "doc_title": "TDS Deduction Rules for Small Businesses",
+    "section_title": "TAN Requirement",
+    "content": "TAN Requirement\n\nEvery business deducting TDS must obtain a Tax Deduction Account Number (TAN) and quote it in all TDS-related documents.",
+    "source_file": "tds_deduction.md"
+  }
+]

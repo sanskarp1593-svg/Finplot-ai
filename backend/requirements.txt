@@ -1,0 +1,17 @@
+fastapi==0.141.1
+uvicorn[standard]
+python-multipart
+pydantic>=2.7
+sqlalchemy==2.1.1
+langgraph==1.2.12
+chromadb==1.5.9
+openai==3.19.2
+pdfplumber==0.11.10
+pytesseract
+pillow
+python-dotenv
+reportlab==5.0.1
+pytest==9.1.1
+httpx
+# PostgreSQL driver (only needed when DATABASE_URL points at Postgres):
+# psycopg[binary]
