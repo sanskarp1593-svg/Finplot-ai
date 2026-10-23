@@ -16,32 +16,23 @@ export function TopBar({ businessName = "Kumar General Store" }) {
   }, []);
 
   return (
-    <header
-      className="h-16 px-6 border-b flex items-center justify-between shrink-0 sticky top-0 z-30 backdrop-blur-md"
-      style={{
-        background: "var(--bg-secondary)",
-        borderColor: "var(--border-subtle)",
-      }}
-    >
+    <header className="h-16 px-6 sm:px-8 border-b border-slate-800 bg-slate-900/95 backdrop-blur flex items-center justify-between shrink-0 sticky top-0 z-30">
       {/* Left: Active Business Profile */}
       <div className="flex items-center gap-3">
-        <div
-          className="w-8 h-8 rounded-lg flex items-center justify-center"
-          style={{ background: "var(--primary-subtle)", color: "var(--primary)" }}
-        >
-          <Store className="w-4 h-4" />
+        <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-slate-800 border border-slate-700/60 text-slate-200">
+          <Store className="w-4 h-4 text-emerald-400" />
         </div>
         <div>
-          <span className="text-sm font-semibold" style={{ color: "var(--text-primary)" }}>
+          <span className="text-sm font-semibold text-white">
             {businessName}
           </span>
           <div className="flex items-center gap-1.5">
             <span
               className={`w-1.5 h-1.5 rounded-full ${
-                isHealthy ? "bg-emerald-500 animate-pulse" : "bg-rose-500"
+                isHealthy ? "bg-emerald-400 animate-pulse" : "bg-rose-500"
               }`}
             />
-            <span className="text-[11px]" style={{ color: "var(--text-muted)" }}>
+            <span className="text-[11px] text-slate-400">
               {isHealthy ? "API Connected" : "API Offline"}
             </span>
           </div>
@@ -53,21 +44,20 @@ export function TopBar({ businessName = "Kumar General Store" }) {
         {/* Language Toggle */}
         <button
           onClick={toggleLanguage}
-          className="btn btn-secondary px-3 py-1.5 text-xs font-semibold flex items-center gap-1.5"
+          className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700/80 border border-slate-700/60 text-xs font-semibold text-slate-300 hover:text-white transition-colors flex items-center gap-1.5"
           title="Switch Language / भाषा बदलें"
         >
-          <Languages className="w-3.5 h-3.5 text-indigo-400" />
+          <Languages className="w-3.5 h-3.5 text-emerald-400" />
           <span>{language === "en" ? "EN" : "हिन्दी"}</span>
         </button>
 
         {/* Theme Toggle */}
         <button
           onClick={toggleTheme}
-          className="p-2 rounded-xl text-slate-400 hover:text-slate-200 transition-colors"
-          style={{ background: "var(--bg-tertiary)", border: "1px solid var(--border-subtle)" }}
+          className="p-2 rounded-lg bg-slate-800 hover:bg-slate-700/80 border border-slate-700/60 text-slate-400 hover:text-white transition-colors"
           title={isDark ? "Switch to Light Mode" : "Switch to Dark Mode"}
         >
-          {isDark ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-indigo-500" />}
+          {isDark ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-indigo-400" />}
         </button>
       </div>
     </header>

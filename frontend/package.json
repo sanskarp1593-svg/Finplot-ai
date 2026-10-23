@@ -8,12 +8,15 @@
     "build": "vite build"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
     "vite": "^6.4.1"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.7.0",
     "lucide-react": "^1.61.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "recharts": "^3.10.1"
   }
 }

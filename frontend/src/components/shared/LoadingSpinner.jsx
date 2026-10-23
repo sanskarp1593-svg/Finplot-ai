@@ -1,18 +1,28 @@
 import React from "react";
 
 export function LoadingSpinner({ text = "Loading...", size = "md" }) {
-  const sizeClasses = {
-    sm: "w-5 h-5 border-2",
-    md: "w-8 h-8 border-3",
-    lg: "w-12 h-12 border-4",
+  const sizeMap = {
+    sm: { outer: "w-5 h-5", borderWidth: "2px" },
+    md: { outer: "w-8 h-8", borderWidth: "3px" },
+    lg: { outer: "w-12 h-12", borderWidth: "4px" },
   };
 
+  const { outer, borderWidth } = sizeMap[size] || sizeMap.md;
+
   return (
-    <div className="flex flex-col items-center justify-center p-8 gap-3 text-slate-400">
+    <div className="flex flex-col items-center justify-center p-8 gap-3" style={{ color: "var(--text-muted)" }}>
       <div
-        className={`${sizeClasses[size] || sizeClasses.md} rounded-full border-indigo-500/20 border-t-indigo-500 animate-spin`}
+        className={`${outer} rounded-full animate-spin`}
+        style={{
+          borderStyle: "solid",
+          borderWidth,
+          borderColor: "var(--primary-subtle)",
+          borderTopColor: "var(--primary)",
+        }}
       />
-      {text && <p className="text-sm tracking-wide font-medium">{text}</p>}
+      {text && (
+        <p className="text-sm tracking-wide font-medium">{text}</p>
+      )}
     </div>
   );
 }

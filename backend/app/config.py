@@ -20,10 +20,18 @@ CHROMA_DIR = DATA_DIR / "chroma"
 UPLOAD_DIR = DATA_DIR / "uploads"
 
 # ── database ─────────────────────────────────────────────────────────────────
-DATABASE_URL: str = os.getenv(
-    "DATABASE_URL",
-    f"sqlite:///{DATA_DIR / 'finpilot.db'}",
-)
+_db_env = os.getenv("DATABASE_URL", "").strip()
+if _db_env:
+    if _db_env.startswith("sqlite:///") and not _db_env.startswith("sqlite:////") and ":memory:" not in _db_env:
+        rel_path = _db_env[len("sqlite:///"):]
+        abs_db_path = (PROJECT_ROOT / rel_path).resolve()
+        abs_db_path.parent.mkdir(parents=True, exist_ok=True)
+        DATABASE_URL = f"sqlite:///{abs_db_path.as_posix()}"
+    else:
+        DATABASE_URL = _db_env
+else:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    DATABASE_URL = f"sqlite:///{(DATA_DIR / 'finpilot.db').as_posix()}"
 
 # ── OpenAI (optional) ────────────────────────────────────────────────────────
 OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "").strip()

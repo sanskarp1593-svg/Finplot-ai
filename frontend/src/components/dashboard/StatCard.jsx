@@ -3,7 +3,9 @@ import { TrendingUp, TrendingDown, Minus } from "lucide-react";
 
 export function StatCard({ title, amount, change, isCurrency = true, isPercentage = false, subtitle, type = "neutral" }) {
   const formatValue = () => {
-    if (amount === undefined || amount === null) return "—";
+    if (amount === undefined || amount === null) {
+      return isPercentage ? "0.0%" : "₹0";
+    }
     if (isPercentage) return `${Number(amount).toFixed(1)}%`;
     if (isCurrency) {
       return `₹${Number(amount).toLocaleString("en-IN", {
@@ -33,25 +35,24 @@ export function StatCard({ title, amount, change, isCurrency = true, isPercentag
   };
 
   return (
-    <div className="glass-card p-5 relative overflow-hidden group">
-      <div className="flex items-center justify-between mb-2">
-        <span className="text-xs font-semibold uppercase tracking-wider" style={{ color: "var(--text-muted)" }}>
+    <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-sm flex flex-col justify-between transition-colors hover:border-slate-700/70">
+      <div>
+        <p className="text-sm font-medium text-slate-400 uppercase tracking-wider mb-2">
           {title}
-        </span>
+        </p>
+        <p className="text-3xl font-semibold text-white tabular-nums tracking-tight">
+          {formatValue()}
+        </p>
       </div>
 
-      <div className="stat-value text-2xl font-extrabold my-1" style={{ color: "var(--text-primary)" }}>
-        {formatValue()}
-      </div>
-
-      <div className="flex items-center gap-1.5 mt-2 text-xs font-medium">
+      <div className="flex items-center gap-1.5 text-xs text-slate-500 mt-2">
         {change !== undefined && change !== null && (
           <span className={`flex items-center gap-1 font-semibold ${getChangeColor()}`}>
             {getTrendIcon()}
             {change > 0 ? `+${change.toFixed(1)}%` : `${change.toFixed(1)}%`}
           </span>
         )}
-        <span style={{ color: "var(--text-muted)" }}>{subtitle || "vs prior month"}</span>
+        <span>{subtitle || "vs prior month"}</span>
       </div>
     </div>
   );
