@@ -1,10 +1,16 @@
-# FinPilot AI
 
+# FinPilot AI
 A multi-agent decision-support assistant for small businesses of any kind. It extracts data from supplier invoices, answers financial questions from computed numbers, tracks spending against monthly budgets, looks up a small compliance knowledge base with citations, and flags anything interpretive for review by a Chartered Accountant.
 
 It is a Semester-5 AIML mini-project. It is **not** a replacement for a Chartered Accountant.
 
 > **Status**: Full-stack application fully implemented and operational with FastAPI backend, React 19 frontend, LangGraph 6-agent workflow, RAG compliance engine, and comprehensive automated test suite.
+
+<img width="2752" height="1536" alt="Gemini_Generated_Image_h8zggbh8zggbh8zg (1)" src="https://github.com/user-attachments/assets/24f4ccda-52e0-429c-ac2b-b786ff130736" />
+
+
+<img width="2752" height="1536" alt="Gemini_Generated_Image_h8zggbh8zggbh8zg" src="https://github.com/user-attachments/assets/d752eceb-ee6c-4b4d-8f6b-a80dcf9aae63" />
+
 
 ## Features
 
